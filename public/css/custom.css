@@ -1,0 +1,20 @@
+label.required::after {
+    color: var(--red);
+    content: " *";
+}
+
+select {
+	min-height: 50px !important;
+}
+
+@media only screen and (min-width: 992px) {
+    textarea {
+        height: 100px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    select[multiple] {
+        min-height: 175px !important;
+    }
+}
